@@ -8,11 +8,13 @@ const ReviewSchema = new mongoose.Schema(
     },
 
     stars: {
-      type: Number
+      type: Number,
+      required:true
      
     },
     review: {
       type: String,
+      required:true
       
     },
   },
